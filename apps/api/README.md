@@ -19,8 +19,8 @@ Since this project is part of a monorepo, the recommended way to start the appli
    npm run dev
    ```
 
-The backend API will be available at [http://localhost:3000](http://localhost:3000).
-The **Swagger API Documentation** is automatically generated and available at [http://localhost:3000/api/docs](http://localhost:3000/api/docs).
+The backend API will be available at [http://localhost:8080](http://localhost:8080).
+The **Swagger API Documentation** is automatically generated and available at [http://localhost:8080/api/docs](http://localhost:8080/api/docs).
 
 ### Running Backend Only
 

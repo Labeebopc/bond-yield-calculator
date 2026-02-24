@@ -6,7 +6,7 @@ import type { CalculateBondResponse, CalculateBondRequest } from '@bond-yield-ca
 import { Calculator } from 'lucide-react';
 
 // Use env variable or fallback
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000';
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8080';
 
 function App() {
   const [result, setResult] = useState<CalculateBondResponse | null>(null);

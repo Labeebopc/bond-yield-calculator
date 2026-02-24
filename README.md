@@ -24,8 +24,8 @@ To run both the NestJS backend and React frontend concurrently:
 npm run dev
 ```
 - **Frontend** will be available at `http://localhost:5173`
-- **Backend API** will be available at `http://localhost:3000`
-- **Swagger Docs** will be available at `http://localhost:3000/api/docs`
+- **Backend API** will be available at `http://localhost:8080`
+- **Swagger Docs** will be available at `http://localhost:8080/api/docs`
 
 ### Testing
 Run the backend finance logic unit tests via:

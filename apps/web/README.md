@@ -29,7 +29,7 @@ If you only want to start the Vite development server for the frontend, you can 
 npm run dev
 ```
 
-*Note: The frontend expects the backend API to be running on `http://localhost:3000`. Some features might not work without it.*
+*Note: The frontend expects the backend API to be running on `http://localhost:8080`. Some features might not work without it.*
 
 ## Building for Production
 
