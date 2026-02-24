@@ -31,7 +31,7 @@ describe('BondService', () => {
 
   it('should calculate YTM for a realistic bond with semi-annual payments', () => {
     // Face: 1000, Coupon: 5% (25 per period), Price: 950, Years: 5, SemiAnnual (10 periods)
-    // Approximate YTM is 6.185%
+    // Approximate YTM is 6.178%
     const result = service.calculate({
       faceValue: 1000,
       annualCouponRate: 5,
@@ -39,7 +39,7 @@ describe('BondService', () => {
       marketPrice: 950,
       yearsToMaturity: 5,
     });
-    expect(result.yieldToMaturity).toBeCloseTo(6.185, 2);
+    expect(result.yieldToMaturity).toBeCloseTo(6.178, 2);
     expect(result.premiumDiscountIndicator).toBe('Discount');
     expect(result.totalInterest).toBe(250); // 10 * 25
   });
