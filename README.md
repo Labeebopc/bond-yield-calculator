@@ -59,7 +59,7 @@ Calculates the bond yield metrics and schedule.
 
 1. Clone the repository and navigate into the folder:
    ```bash
-   git clone https://github.com/Labeeb-nixxie/bond-yield-calculator.git
+   git clone https://github.com/Labeebopc/bond-yield-calculator.git
    cd bond-yield-calculator
    ```
 2. Install all dependencies across the workspaces:
